@@ -1,0 +1,32 @@
+/* Create a simple responsive image gallery with HTML and CSS*/
+/*Tim Wells*/
+/* https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea */
+
+#Photo {
+   padding-top:60px;
+}
+#gallery {
+    line-height:0;
+    -webkit-column-count:5; /* split it into 5 columns */
+    -webkit-column-gap:5px; /* give it a 5px gap between columns */
+    -moz-column-count:5;
+    -moz-column-gap:5px;
+    column-count:4;
+    column-gap:5px;
+    /*(Added by me)*/
+    background-color: rgb(159, 151, 73, 0.5);
+    border-color: #2b2a2a;
+    border-bottom-style: solid;
+ }
+
+ #gallery img {
+    width: 100% !important;
+    height: auto!important;
+    margin-bottom:5px; /* to match column gap */ /*()*/
+    margin-top: 5px;
+ }
+ 
+
+
+/*(Some issues at the botom of the gallery)*/
+
