@@ -2,7 +2,7 @@
 /* Tablets */
 
 /*---I can't fix how navbar overlaping h2(resume , about me ) I used padding top, but 
-I don't like how it looks---*/
+I don't like how it looks---Also, Thera are some issues with the hero content in landcape view (tablets and phone)*/
 
 @media (max-width: 1200px) {
     #gallery {
@@ -55,11 +55,11 @@ I don't like how it looks---*/
     }
 
     #Blog {
-        padding-top: 110px;
+        padding-top: 60px;
     }
 
     #resume {
-        padding-top: 80px;
+        padding-top: 55px;
     }
 
     .under img {
@@ -73,7 +73,7 @@ I don't like how it looks---*/
     }
 
     .about {
-        padding-top: 80px;
+        padding-top: 55px;
     }
 
 }
@@ -102,22 +102,22 @@ I don't like how it looks---*/
     }
 
     figure>img {
-
+        display:none;
         padding-top: 0%;
     }
 
 
     .aboutme p {
-        padding: 0 2% 10% 2%;
-        /* top:    0 padding  */
-        /* right:  2% padding  */
-        /* bottom: 6% padding */
-        /* left:   2% padding  */
+        font-size: 1em;
+        line-height: 3;
+        text-align: justify;
+        padding-right: 5%;
+        padding-left: 5%;
     }
 
 
     .title {
-        padding-top: 5%;
+        padding-top: 0%;
     }
 
     .content h1 {
@@ -144,7 +144,7 @@ I don't like how it looks---*/
     }
 
     .aboutme p {
-        padding: 0 2% 25% 2%;
+        padding: 0 2% 0% 2%;
         /* top:    0 padding  */
         /* right:  2% padding  */
         /* bottom: 6% padding */

@@ -106,10 +106,9 @@ ul li a:hover {
     position: fixed;
     /*opacity: 0.8;*/
     width: 100%;
-    max-width: 900px;
+    max-width: 896px;
     list-style: none;
-    margin: 0;
-    padding: 0;
+
 }
 
 .navigation li {
@@ -126,10 +125,10 @@ ul li a:hover {
     letter-spacing: 2px;
     text-decoration: none;
     background-color: #425664;
-
     text-align: center;
-    height: 60px;
-    padding-top: 15px;
+    height: 40px;
+    padding-top: 10px;
+
     font-size: 0.8em;
 }
 
@@ -172,11 +171,10 @@ ul li a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .aboutme p {
-
     line-height: 3;
     text-align: justify;
     padding-right: 5%;
@@ -194,9 +192,6 @@ figure>img {
 }
 
 /* Blog */
-#Blog {
-    padding-top: 60px;
-}
 
 .aboutBlog {
     display: flex;
@@ -243,15 +238,17 @@ figure>img {
     padding-bottom: 5%;
     font-weight: bolder;
     text-align: center;
-
+}
+.btnBlog:hover  {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: larger;
+    transition: 0.5s
 }
 
 .myimageBlog {
     max-height: 400px;
 }
-
-
-
 
 /* Resume */
 #resume {
@@ -267,7 +264,7 @@ figure>img {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: baseline;
+    /*justify-content: baseline;*/
     align-items: center;
     align-content: center;
 }
@@ -386,20 +383,12 @@ figure>img {
     align-items: center;
     justify-content: space-around;
     align-content: center;
-
-
 }
 
 .footer li {
     flex: 25%;
     padding-top: 2%;
-
-
 }
-
-.user {}
-
-
 .footer a {
     color: #bcbcbc;
     font-size: 0.9em;
