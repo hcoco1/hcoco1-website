@@ -24,20 +24,16 @@ body {
     border-bottom: solid;
     border-left: solid;
     border-right: solid;
-
 }
-
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-
 figure {
     margin: 0;
     padding: 0;
 }
-
 hr {
     display: block;
     margin-left: 5%;
@@ -45,32 +41,26 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
-
 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 a {
     font-size: 1em;
     text-decoration: none;
 }
-
 p {
     font-size: 0.9em;
 }
-
 h1 {
     font-size: 1.6em;
     font-family: 'Solitreo', cursive;
     padding-top: 35%;
 }
-
 h2 {
     font-size: 1.4em;
 }
-
 /* Navigation bar (I need help centering vertically) */
 
 /*
@@ -93,14 +83,12 @@ ul li a:hover {
     background: #939393;
 }
 */
-
 .navcontainer {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
     padding: 0;
 }
-
 .navigation ul {
     display: flex;
     position: fixed;
@@ -108,17 +96,13 @@ ul li a:hover {
     width: 100%;
     max-width: 896px;
     list-style: none;
-
 }
-
 .navigation li {
     flex: 50%;
 }
-
 .navigation .user {
     flex: 50%;
 }
-
 .navigation a {
     display: inline-block;
     color: white;
@@ -128,14 +112,11 @@ ul li a:hover {
     text-align: center;
     height: 40px;
     padding-top: 10px;
-
     font-size: 0.8em;
 }
-
 .navigation a:hover {
     border-bottom: #28a745 4px solid;
 }
-
 /* Main screen */
 .back {
     background: url('../img/5.jpg');
@@ -146,7 +127,6 @@ ul li a:hover {
     position: relative;
 
 }
-
 .content {
     display: flex;
     flex-direction: column;
@@ -154,12 +134,10 @@ ul li a:hover {
     height: 100%;
 
 }
-
 .content h1 {
     font-size: 55px;
     color: #011b07;
 }
-
 .content p {
     font-size: 23px;
     color: #292824;
@@ -173,66 +151,51 @@ ul li a:hover {
     flex-wrap: nowrap;
     padding-top: 40px;
 }
-
 .aboutme p {
     line-height: 3;
     text-align: justify;
     padding-right: 5%;
     padding-left: 10%;
 }
-
 .title {
     color: #000000;
     text-align: center;
 }
-
 figure>img {
     border-radius: 50%;
     padding: 5%;
 }
-
 /* Blog */
-
 .aboutBlog {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-
 }
-
 .aboutmeBlog {
     display: flex;
     flex-direction: column;
     background: #0284d0;
-
 }
-
 .aboutmeBlog p {
     font-size: 1em;
     line-height: 3;
     text-align: justify;
     padding-right: 5%;
     padding-left: 5%;
-
-
 }
-
 .titleBlog {
     color: #ffffff;
     font-weight: bolder;
     text-align: left;
     padding-left: 5%;
-
-
+    padding-top: 5%;
 }
-
 .titleBlog1 {
     color: #000000;
     text-align: left;
     padding-left: 5%;
 
 }
-
 .btnBlog {
     color: #010101;
     padding-bottom: 5%;
@@ -245,21 +208,16 @@ figure>img {
     font-size: larger;
     transition: 0.5s
 }
-
 .myimageBlog {
     max-height: 400px;
 }
-
 /* Resume */
 #resume {
     padding-top: 40px;
 }
-
 .resumecv {
     background: rgb(232, 237, 225);
-
 }
-
 .inli {
     display: flex;
     flex-direction: row;
@@ -268,24 +226,20 @@ figure>img {
     align-items: center;
     align-content: center;
 }
-
 .inli:hover {
     color: #38ab57;
     font-weight: bolder;
     font-size: larger;
     transition: 0.5s
 }
-
 .inli h4 {
     margin-left: 15%;
     flex: 1;
 }
-
 .inli p {
     margin-right: 10%;
     flex: 2;
 }
-
 .title1 {
     padding-left: 5%;
     border-top-style: solid;
@@ -295,7 +249,6 @@ figure>img {
     margin-left: 5%;
     margin-right: 5%;
 }
-
 .skills ul {
     display: flex;
     flex-direction: row;
@@ -307,7 +260,6 @@ figure>img {
     margin-right: 8%;
     padding: 2%;
 }
-
 .skills li {
     display: block;
     padding-top: 2%;
@@ -316,11 +268,9 @@ figure>img {
     align-items: center;
     align-content: center;
 }
-
 .ski:hover {
     color: #0f79c4;
 }
-
 .inter ul {
     display: flex;
     flex-direction: row;
@@ -332,7 +282,6 @@ figure>img {
     margin-right: 10%;
     padding: 2%;
 }
-
 .inter li {
     display: flex;
     flex-direction: row;
@@ -340,23 +289,17 @@ figure>img {
     padding-top: 2%;
     padding-right: 10%;
     text-align: center;
-
 }
-
 .inter a {
     text-decoration: none;
     color: #2b2a2a;
     text-align: center;
-
 }
-
 .inter a:hover {
     color: #7cc975;
     font-weight: bold;
     font-weight: 500;
 }
-
-
 .under img {
     margin: 0 auto;
     width: 100%;
@@ -366,7 +309,6 @@ figure>img {
     border-color: #425664;
     border-width: 3px;
 }
-
 .footer {
     background-color: #425664;
     border-color: #2b2a2a;
@@ -375,7 +317,6 @@ figure>img {
     text-align: center;
     height: 110px;
 }
-
 .footer ul {
     display: flex;
     flex-direction: row;
@@ -384,7 +325,6 @@ figure>img {
     justify-content: space-around;
     align-content: center;
 }
-
 .footer li {
     flex: 25%;
     padding-top: 2%;

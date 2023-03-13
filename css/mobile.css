@@ -69,13 +69,10 @@ I don't like how it looks---Also, Thera are some issues with the hero content in
     .title {
         color: #000000;
         text-align: center;
-
     }
-
     .about {
         padding-top: 55px;
     }
-
 }
 
 .navigation a {
@@ -83,10 +80,8 @@ I don't like how it looks---Also, Thera are some issues with the hero content in
     flex-direction: row;
     justify-content: space-around;
     letter-spacing: 1px;
-
     font-size: 0.8em;
 }
-
 
 @media (max-width: 750px) {
     #gallery {
@@ -94,19 +89,14 @@ I don't like how it looks---Also, Thera are some issues with the hero content in
         -webkit-column-count: 2;
         column-count: 2;
     }
-
     .about {
 
         flex-direction: column;
-
     }
-
     figure>img {
         display:none;
         padding-top: 0%;
     }
-
-
     .aboutme p {
         font-size: 1em;
         line-height: 3;
@@ -114,15 +104,12 @@ I don't like how it looks---Also, Thera are some issues with the hero content in
         padding-right: 5%;
         padding-left: 5%;
     }
-
-
     .title {
         padding-top: 0%;
     }
 
     .content h1 {
         font-size: 45px;
-
     }
 
     .footer {
@@ -131,7 +118,6 @@ I don't like how it looks---Also, Thera are some issues with the hero content in
 
     .footer li {
         padding-top: 4%;
-
     }
 }
 
@@ -155,14 +141,10 @@ I don't like how it looks---Also, Thera are some issues with the hero content in
         font-size: 35px;
 
     }
-
-
-
     .content h1 {
         padding-top: 50%;
         font-size: 35px;
     }
-
     .content p {
         font-size: 18px;
         font-weight: bolder;
@@ -170,10 +152,7 @@ I don't like how it looks---Also, Thera are some issues with the hero content in
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin-left: 5%;
         margin-right: 5%;
-
     }
-
-
     /* I dont like how looks with 1 column
     #gallery {
         -moz-column-count:    1;
