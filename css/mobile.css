@@ -1,0 +1,175 @@
+/* Media Queries */
+/* Tablets */
+
+/*---I can't fix how navbar overlaping h2(resume , about me ) I used padding top, but 
+I don't like how it looks---Also, Thera are some issues with the hero content in landcape view (tablets and phone)*/
+
+@media (max-width: 1200px) {
+    #gallery {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navigation ul {
+        flex-wrap: wrap;
+    }
+
+    .navigation li {
+        flex: 1 1 33.33%;
+    }
+
+    .navigation .user {
+        flex: 1 1 25%;
+        /*  flex-grow
+            flex-shrink
+            flex-basis  */
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    #gallery {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+
+    #Photo {
+        padding-top: 80px;
+    }
+
+    #Blog {
+        padding-top: 60px;
+    }
+
+    #resume {
+        padding-top: 55px;
+    }
+
+    .under img {
+        padding-top: 100px;
+    }
+
+    .title {
+        color: #000000;
+        text-align: center;
+    }
+    .about {
+        padding-top: 55px;
+    }
+}
+
+.navigation a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+}
+
+@media (max-width: 750px) {
+    #gallery {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+    .about {
+
+        flex-direction: column;
+    }
+    figure>img {
+        display:none;
+        padding-top: 0%;
+    }
+    .aboutme p {
+        font-size: 1em;
+        line-height: 3;
+        text-align: justify;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .title {
+        padding-top: 0%;
+    }
+
+    .content h1 {
+        font-size: 45px;
+    }
+
+    .footer {
+        height: 130px;
+    }
+
+    .footer li {
+        padding-top: 4%;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 480px) {
+    .navigation li {
+        flex: 1 1 33.33%;
+    }
+
+    .aboutme p {
+        padding: 0 2% 0% 2%;
+        /* top:    0 padding  */
+        /* right:  2% padding  */
+        /* bottom: 6% padding */
+        /* left:   2% padding  */
+    }
+
+    .content h1 {
+        font-size: 35px;
+
+    }
+    .content h1 {
+        padding-top: 50%;
+        font-size: 35px;
+    }
+    .content p {
+        font-size: 18px;
+        font-weight: bolder;
+        color: #4ba915;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    /* I dont like how looks with 1 column
+    #gallery {
+        -moz-column-count:    1;
+        -webkit-column-count: 1;
+        column-count:         1;
+       }
+*/
+    .footer ul {
+        display: flex;
+        flex-direction: ROW;
+
+        padding: 3%;
+    }
+
+    .footer a {
+        font-size: 0.7em;
+
+    }
+
+}
